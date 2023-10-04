@@ -1,9 +1,11 @@
-import Button from "@ats-components/button";
+import { lazy } from "react";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
+const InterviewerApp = lazy(() => import("interviewerApp/App"));
+
 function App() {
-	return <Button></Button>;
+	return <InterviewerApp />;
 }
 
 export default App;

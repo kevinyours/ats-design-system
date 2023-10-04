@@ -21,7 +21,9 @@
 		"version-packages": "changeset version",
 		"release": "turbo run build --filter=docs^... && changeset publish",
 		"c": "pnpm -F @jobflex/container",
-		"container": "pnpm -F @jobflex/container dev"
+		"container": "pnpm -F @jobflex/container dev",
+		"ii": "pnpm -F @jobflex/interviewer",
+		"interviewer": "pnpm -F @jobflex/interviewer dev"
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.25.2",
