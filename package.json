@@ -1,21 +1,33 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --no-cache --continue",
-    "lint": "turbo run lint",
-    "clean": "turbo run clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "turbo run build --filter=docs^... && changeset publish"
-  },
-  "devDependencies": {
-    "@changesets/cli": "^2.25.2",
-    "eslint": "^8.48.0",
-    "prettier": "^3.0.3",
-    "tsconfig": "workspace:*",
-    "turbo": "latest"
-  },
-  "packageManager": "pnpm@8.6.10"
+	"private": true,
+	"packageManager": "pnpm@8.8.0",
+	"engines": {
+		"node": "18.16.0"
+	},
+	"workspaces": [
+		"apps/*",
+		"ats-components/*",
+		"ats-foundation/*",
+		"packages/*",
+		"tests/*"
+	],
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev --no-cache --continue",
+		"lint": "turbo run lint",
+		"clean": "turbo run clean && rm -rf node_modules",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"changeset": "changeset",
+		"version-packages": "changeset version",
+		"release": "turbo run build --filter=docs^... && changeset publish",
+		"c": "pnpm -F @jobflex/container",
+		"container": "pnpm -F @jobflex/container dev"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.25.2",
+		"eslint": "^8.48.0",
+		"prettier": "^3.0.3",
+		"tsconfig": "workspace:*",
+		"turbo": "latest"
+	}
 }

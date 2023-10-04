@@ -1,3 +1,6 @@
 packages:
   - "apps/*"
+  - "ats-components/*"
+  - "ats-foundation/*"
   - "packages/*"
+  - "tests"

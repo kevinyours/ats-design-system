@@ -1,0 +1,22 @@
+{
+	"name": "@ats-components/button",
+	"version": "1.0.0",
+	"main": "src/index.tsx",
+	"types": "src/index.tsx",
+	"peerDependencies": {
+		"@emotion/react": "*",
+		"@emotion/styled": "*",
+		"react": "*",
+		"react-dom": "*"
+	},
+	"devDependencies": {
+		"@emotion/react": "^11.11.0",
+		"@emotion/styled": "^11.11.0",
+		"@types/react": "^18.2.6",
+		"@types/react-dom": "^18.2.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"tsconfig": "workspace:*",
+		"typescript": "^5.2.2"
+	}
+}

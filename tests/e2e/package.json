@@ -1,0 +1,17 @@
+{
+	"name": "@jobflex/e2e",
+	"scripts": {
+		"install": "cypress install",
+		"interviewer": "cypress open --config-file ./config/interviewer.config.ts"
+	},
+	"devDependencies": {
+		"@jobflex/constants": "workspace:*",
+		"@types/node": "^20.8.2",
+		"cypress": "12.17.3",
+		"cypress-dotenv": "^2.0.0",
+		"cypress-localstorage-commands": "^2.2.3",
+		"dotenv": "^16.3.1",
+		"tsconfig": "workspace:*",
+		"typescript": "^5.2.2"
+	}
+}

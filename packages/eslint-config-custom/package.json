@@ -1,12 +1,18 @@
 {
-  "name": "eslint-config-custom",
-  "license": "MIT",
-  "version": "0.0.0",
-  "private": true,
-  "devDependencies": {
-    "@vercel/style-guide": "^5.0.0",
-    "eslint-config-turbo": "^1.10.12",
-    "eslint-plugin-mdx": "^2.2.0",
-    "eslint-plugin-storybook": "^0.6.13"
-  }
+	"name": "eslint-config-custom",
+	"license": "MIT",
+	"version": "0.0.0",
+	"private": true,
+	"devDependencies": {
+		"@vercel/style-guide": "^5.0.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-config-turbo": "^1.10.12",
+		"eslint-plugin-cypress": "^2.15.1",
+		"eslint-plugin-mdx": "^2.2.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.3",
+		"eslint-plugin-storybook": "^0.6.13",
+		"eslint-plugin-testing-library": "^6.0.2"
+	}
 }

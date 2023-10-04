@@ -1,0 +1,18 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "./base.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "es5",
+		"lib": ["es5", "dom"],
+		"types": [
+			"cypress",
+			"@testing-library/cypress",
+			"cypress-localstorage-commands",
+			"dayjs",
+			"node"
+		],
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true
+	}
+}
